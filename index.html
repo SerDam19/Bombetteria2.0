@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA BOMBETTERIA 2.0 - Macelleria & Braceria</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bombetteria.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div>
+                <div class="logo floating">
+                    <h1>LA BOMBETTERIA</h1>
+                    <h2>2.0</h2>
+                    <p class="tagline">Macelleria & Braceria</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-container">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#menu" class="nav-link">Menu</a>
+                    <a href="#storia" class="nav-link">La Nostra Storia</a>
+                    <a href="#contatti" class="nav-link">Contatti</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <section id="home" class="hero">
+                <h2>Benvenuti nella Tradizione</h2>
+                <p>Dove la passione per la carne si trasforma in gusto autentico. Selezioniamo con cura ogni taglio e prepariamo ogni piatto con dedizione, per farti sentire sempre il benvenuto.</p>
+            </section>
+
+            <section class="gallery">
+                <div class="photo-card">
+                    <div class="photo-placeholder">
+                        <img src="Immagini/Antipasti.jpg" alt="Antipasti">
+                    </div>
+                    <h3>Antipasti</h3>
+                </div>
+                <div class="photo-card">
+                    <div class="photo-placeholder">
+                        <img src="Immagini/Bombette.jpg" alt="Bombette">
+                    </div>
+                    <h3>Le nostre bombette</h3>
+                </div>
+                <div class="photo-card">
+                    <div class="photo-placeholder">
+                        <img src="Immagini/Carne.jpg" alt="Carne">
+                    </div>
+                    <h3>Carne selezionata</h3>
+                </div>
+            </section>
+
+            <section id="storia" class="story">
+                <h3>La Nostra Storia</h3>
+                <p>LA BOMBETTERIA 2.0 nasce dalla passione per la tradizione culinaria italiana e rappresenta l’evoluzione di un sogno. Ogni giorno selezioniamo con cura le migliori carni per offrirti un’esperienza gastronomica unica, dove tradizione e innovazione si uniscono per creare sapori indimenticabili.</p>
+            </section>
+
+            <section class="actions">
+                <div class="action-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h4>Menu Completo</h4>
+                    <a href="File/Menu.pdf">Scarica il nostro menu</a>
+                </div>
+                <div class="action-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h4>Menu Panini</h4>
+                    <a href="File/Panini.pdf">Scarica il nostro menu Panini</a>
+                </div>
+                <div class="action-card">
+                    <i class="fas fa-phone"></i>
+                    <h4>Prenota un Tavolo</h4>
+                    <a href="tel: 0802021461">080 2021461</a>
+                </div>
+                <div class="action-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Vieni a Trovarci</h4>
+                    <a href="https://maps.app.goo.gl/UCq1jYqbF1DiiHf79">Via Nicola Garrone, 18 - Bari</a>
+                </div>
+            </section>
+
+            <section id="contatti" class="contact">
+                <h3>Contatti</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>080 20214561</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Via Nicola Garrone, 18 - Bari</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>bombetteria2.0@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Lun-Sab: 8:00-00:00 -- Dom: 17:00-00:00</span>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/16aPuWTRpV/?mibextid=wwXIfr" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/bombetteria2.0?igsh=MTVrMTA2MW03MzN4Zw%3D%3D&utm_source=qr" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@bombetteria.pierocolella?_t=ZN-8xdxrTw0fFG&_r=1" class="social-link">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 LA BOMBETTERIA 2.0 - Macelleria & Braceria. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+    <script src="bombetteria.js"></script>
+</body>
+</html>
